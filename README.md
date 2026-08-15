@@ -1,124 +1,53 @@
-Introduction
-============
+# 🏋️‍♂️ GYM-SYSTEM — Gym Management System
 
-![Bower version](https://img.shields.io/bower/v/adminlte.svg)
-[![npm version](https://img.shields.io/npm/v/admin-lte.svg)](https://www.npmjs.com/package/admin-lte)
-[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
-[![CDNJS](https://img.shields.io/cdnjs/v/admin-lte.svg)](https://cdnjs.com/libraries/admin-lte)
+[![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**AdminLTE** -- is a fully responsive admin template. Based on **[Bootstrap 3](https://github.com/twbs/bootstrap)** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
+**GYM-SYSTEM** is a web-based Gym & Fitness Management System designed to streamline member registrations, subscription plans, trainer scheduling, and payment tracking. Built with **PHP** and **MySQL**, it provides gym owners and managers with an all-in-one platform to run daily operations smoothly.
 
-**Download & Preview on [Almsaeed Studio](https://almsaeedstudio.com)**
+---
 
-Looking for Premium Templates?
-------------------------------
-**Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit https://almsaeedstudio.com/premium for more information.**
+## 🌟 Key Features
 
+### 👤 Member Management
+* **Member Profiles**: Register new members with contact information, emergency contacts, and joining dates.
+* **Membership Plans**: Define custom membership packages (Monthly, Quarterly, Annual) with distinct pricing and perks.
+* **Subscription Tracking**: Automatic tracking of active, upcoming, and expired member subscriptions.
 
-!["AdminLTE Presentation"] (https://almsaeedstudio.com/AdminLTE2.png "AdminLTE Presentation")
+### 💳 Payments & Billing
+* **Payment Logging**: Record dues, fees, and membership renewal payments.
+* **Receipt & Invoice Tracking**: View transaction histories for all registered gym members.
 
-**AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
+### 🏋️ Trainers & Workouts
+* **Trainer Directory**: Assign personal trainers to members and manage trainer schedules.
+* **Equipment Inventory**: Log and track gym equipment maintenance and inventory status.
 
-Installation
-------------
-There are multiple ways to install AdminLTE.
+### 🛡️ Admin Dashboard
+* **Overview Analytics**: Monitor total active members, monthly revenue, and expiring memberships at a glance.
+* **Access Control**: Secure authentication for system administrators and staff.
 
-####Download:
+---
 
-Download from Github or [visit Almsaeed Studio](https://almsaeedstudio.com) and download the latest release.
+## 🛠️ Tech Stack & Prerequisites
 
-####Using The Command Line:
+* **Backend**: PHP (v7.4 or higher)
+* **Database**: MySQL / MariaDB
+* **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+* **Local Web Server**: [XAMPP](https://www.apachefriends.org/) / WAMP / MAMP
 
-**Github**
+---
 
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine
-```
-git clone https://github.com/YOUR_USERNAME/AdminLTE.git
-```
+## 🚀 Local Installation Setup
 
-**Bower**
+Follow these steps to set up **GYM-SYSTEM** locally using **XAMPP**:
 
-```
-bower install admin-lte
-```
+### 1. Clone the Repository
+Clone the repository into your local server root directory (e.g., `C:\xampp\htdocs\`):
 
-**npm**
-
-```
-npm install --save admin-lte
-```
-
-**Composer**
-
-```
-composer require "almasaeed2010/adminlte=~2.0"
-```
-
-Documentation
--------------
-Visit the [online documentation](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html) for the most
-updated guide. Information will be added on a weekly basis.
-
-Browser Support
----------------
-- IE 9+
-- Firefox (latest)
-- Chrome (latest)
-- Safari (latest)
-- Opera (latest)
-
-Contribution
-------------
-Contribution are always **welcome and recommended**! Here is how:
-
-- Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-- Clone to your machine ```git clone https://github.com/YOUR_USERNAME/AdminLTE.git```
-- Make your changes
-- Create a pull request
-
-#### Contribution Requirements:
-
-- When you contribute, you agree to give a non-exclusive license to Almsaeed Studio to use that contribution in any context as we (Almsaeed Studio) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
-- Contributions are only accepted through Github pull requests.
-- Finally, contributed code must work in all supported browsers (see above for browser support).
-
-License
--------
-AdminLTE is an open source project by [Almsaeed Studio](https://almsaeedstudio.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio
-reserves the right to change the license of future releases.
-
-Todo List
----------
-- ~~Light sidebar colors~~ (Done v2.1.0)
-- ~~Right sidebar~~ (Done v2.1.0)
-- ~~Minified main-sidebar~~ (Done v2.1.0)
-- Right to left support
-- ~~Custom pace style~~ (Done v2.3.1)
-
-Legacy Releases
-----------------
-AdminLTE 1.x can be easily upgraded to 2.x using [this guide](https://almsaeedstudio.com/themes/AdminLTE/documentation/index.html#upgrade), but if you intend to keep using AdminLTE 1.x, you can download the latest release from the [releases](https://github.com/almasaeed2010/AdminLTE/releases) section above.
-
-Change log
-----------
-**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add a detailed release notes to each new release. 
-
-Image Credits
--------------
-[Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-
-[Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-
-[Pickaface](http://pickaface.net/)
-
-[Unsplash](https://unsplash.com/)
-
-[Uifaces](http://uifaces.com/)
-
-Donations
----------
-Donations are **greatly appreciated!**
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
+```bash
+cd C:\xampp\htdocs\
+git clone [https://github.com/mir1muzammil/GYM-SYSTEM.git](https://github.com/mir1muzammil/GYM-SYSTEM.git)
