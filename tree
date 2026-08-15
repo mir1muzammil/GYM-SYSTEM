@@ -1,0 +1,1519 @@
+C:\Users\Hp>tree /f C:\xampp\htdocs\fitness_club\fitness_club\
+Folder PATH listing for volume System
+Volume serial number is 4C33-B404
+C:\XAMPP\HTDOCS\FITNESS_CLUB\FITNESS_CLUB
+│   .gitignore
+│   .jshintrc
+│   attendance_manage.php
+│   auth_check.php
+│   bower.json
+│   changelog.md
+│   composer.json
+│   db_connect.php
+│   equipment_manage.php
+│   exercises_manage.php
+│   fitness_club.sql
+│   footer.php
+│   forgot_password.php
+│   Gruntfile.js
+│   header.php
+│   index.php
+│   login.php
+│   logout.php
+│   membership_manage.php
+│   members_manage.php
+│   package.json
+│   payments_manage.php
+│   payment_requests_manage.php
+│   README.md
+│   schedules_manage.php
+│   sidebar.php
+│   signup.php
+│   staff_manage.php
+│   starter.html
+│   trainers_manage.php
+│   tree
+│   workout_plans_manage.php
+│   yarn.lock
+│
+├───bootstrap
+│   ├───css
+│   │       bootstrap-theme.css
+│   │       bootstrap-theme.css.map
+│   │       bootstrap-theme.min.css
+│   │       bootstrap-theme.min.css.map
+│   │       bootstrap.css
+│   │       bootstrap.css.map
+│   │       bootstrap.min.css
+│   │       bootstrap.min.css.map
+│   │
+│   ├───fonts
+│   │       glyphicons-halflings-regular.eot
+│   │       glyphicons-halflings-regular.svg
+│   │       glyphicons-halflings-regular.ttf
+│   │       glyphicons-halflings-regular.woff
+│   │       glyphicons-halflings-regular.woff2
+│   │
+│   └───js
+│           bootstrap.js
+│           bootstrap.min.js
+│           npm.js
+│
+├───build
+│   ├───bootstrap-less
+│   │   │   mixins.less
+│   │   │   variables.less
+│   │   │
+│   │   └───mixins
+│   │           alerts.less
+│   │           background-variant.less
+│   │           border-radius.less
+│   │           buttons.less
+│   │           center-block.less
+│   │           clearfix.less
+│   │           forms.less
+│   │           gradients.less
+│   │           grid-framework.less
+│   │           grid.less
+│   │           hide-text.less
+│   │           image.less
+│   │           labels.less
+│   │           list-group.less
+│   │           nav-divider.less
+│   │           nav-vertical-align.less
+│   │           opacity.less
+│   │           pagination.less
+│   │           panels.less
+│   │           progress-bar.less
+│   │           reset-filter.less
+│   │           reset-text.less
+│   │           resize.less
+│   │           responsive-visibility.less
+│   │           size.less
+│   │           tab-focus.less
+│   │           table-row.less
+│   │           text-emphasis.less
+│   │           text-overflow.less
+│   │           vendor-prefixes.less
+│   │
+│   └───less
+│       │   .csslintrc
+│       │   404_500_errors.less
+│       │   AdminLTE-without-plugins.less
+│       │   AdminLTE.less
+│       │   alerts.less
+│       │   bootstrap-social.less
+│       │   boxes.less
+│       │   buttons.less
+│       │   callout.less
+│       │   carousel.less
+│       │   control-sidebar.less
+│       │   core.less
+│       │   direct-chat.less
+│       │   dropdown.less
+│       │   forms.less
+│       │   fullcalendar.less
+│       │   header.less
+│       │   info-box.less
+│       │   invoice.less
+│       │   labels.less
+│       │   lockscreen.less
+│       │   login_and_register.less
+│       │   mailbox.less
+│       │   miscellaneous.less
+│       │   mixins.less
+│       │   modal.less
+│       │   navs.less
+│       │   plugins.less
+│       │   print.less
+│       │   products.less
+│       │   profile.less
+│       │   progress-bars.less
+│       │   select2.less
+│       │   sidebar-mini.less
+│       │   sidebar.less
+│       │   small-box.less
+│       │   social-widgets.less
+│       │   table.less
+│       │   timeline.less
+│       │   users-list.less
+│       │   variables.less
+│       │
+│       └───skins
+│               skin-black-light.less
+│               skin-black.less
+│               skin-blue-light.less
+│               skin-blue.less
+│               skin-green-light.less
+│               skin-green.less
+│               skin-purple-light.less
+│               skin-purple.less
+│               skin-red-light.less
+│               skin-red.less
+│               skin-yellow-light.less
+│               skin-yellow.less
+│               _all-skins.less
+│
+├───dist
+│   ├───css
+│   │   │   AdminLTE.css
+│   │   │   AdminLTE.min.css
+│   │   │
+│   │   ├───alt
+│   │   │       AdminLTE-bootstrap-social.css
+│   │   │       AdminLTE-bootstrap-social.min.css
+│   │   │       AdminLTE-fullcalendar.css
+│   │   │       AdminLTE-fullcalendar.min.css
+│   │   │       AdminLTE-select2.css
+│   │   │       AdminLTE-select2.min.css
+│   │   │       AdminLTE-without-plugins.css
+│   │   │       AdminLTE-without-plugins.min.css
+│   │   │
+│   │   └───skins
+│   │           skin-black-light.css
+│   │           skin-black-light.min.css
+│   │           skin-black.css
+│   │           skin-black.min.css
+│   │           skin-blue-light.css
+│   │           skin-blue-light.min.css
+│   │           skin-blue.css
+│   │           skin-blue.min.css
+│   │           skin-green-light.css
+│   │           skin-green-light.min.css
+│   │           skin-green.css
+│   │           skin-green.min.css
+│   │           skin-purple-light.css
+│   │           skin-purple-light.min.css
+│   │           skin-purple.css
+│   │           skin-purple.min.css
+│   │           skin-red-light.css
+│   │           skin-red-light.min.css
+│   │           skin-red.css
+│   │           skin-red.min.css
+│   │           skin-yellow-light.css
+│   │           skin-yellow-light.min.css
+│   │           skin-yellow.css
+│   │           skin-yellow.min.css
+│   │           _all-skins.css
+│   │           _all-skins.min.css
+│   │
+│   ├───img
+│   │   │   avatar.png
+│   │   │   avatar04.png
+│   │   │   avatar2.png
+│   │   │   avatar3.png
+│   │   │   avatar5.png
+│   │   │   boxed-bg.jpg
+│   │   │   boxed-bg.png
+│   │   │   default-50x50.gif
+│   │   │   icons.png
+│   │   │   photo1.png
+│   │   │   photo2.png
+│   │   │   photo3.jpg
+│   │   │   photo4.jpg
+│   │   │   user1-128x128.jpg
+│   │   │   user2-160x160.jpg
+│   │   │   user3-128x128.jpg
+│   │   │   user4-128x128.jpg
+│   │   │   user5-128x128.jpg
+│   │   │   user6-128x128.jpg
+│   │   │   user7-128x128.jpg
+│   │   │   user8-128x128.jpg
+│   │   │
+│   │   └───credit
+│   │           american-express.png
+│   │           cirrus.png
+│   │           mastercard.png
+│   │           mestro.png
+│   │           paypal.png
+│   │           paypal2.png
+│   │           visa.png
+│   │
+│   └───js
+│       │   app.js
+│       │   app.min.js
+│       │   demo.js
+│       │
+│       └───pages
+│               dashboard.js
+│               dashboard2.js
+│
+├───documentation
+│   │   docs.js
+│   │   index.html
+│   │   style.css
+│   │
+│   └───build
+│       │   index.html
+│       │
+│       └───include
+│               adminlte-options.html
+│               advice.html
+│               browsers.html
+│               components.html
+│               dependencies.html
+│               download.html
+│               faq.html
+│               implementations.html
+│               introduction.html
+│               layout.html
+│               license.html
+│               plugins.html
+│               upgrade.html
+│
+├───pages
+│   │   calendar.html
+│   │   widgets.html
+│   │
+│   ├───charts
+│   │       chartjs.html
+│   │       flot.html
+│   │       inline.html
+│   │       morris.html
+│   │
+│   ├───examples
+│   │       404.html
+│   │       500.html
+│   │       blank.html
+│   │       invoice-print.html
+│   │       invoice.html
+│   │       lockscreen.html
+│   │       login.html
+│   │       pace.html
+│   │       profile.html
+│   │       register.html
+│   │
+│   ├───forms
+│   │       advanced.html
+│   │       editors.html
+│   │       general.html
+│   │
+│   ├───layout
+│   │       boxed.html
+│   │       collapsed-sidebar.html
+│   │       fixed.html
+│   │       top-nav.html
+│   │
+│   ├───mailbox
+│   │       compose.html
+│   │       mailbox.html
+│   │       read-mail.html
+│   │
+│   ├───tables
+│   │       data.html
+│   │       simple.html
+│   │
+│   └───UI
+│           buttons.html
+│           general.html
+│           icons.html
+│           modals.html
+│           sliders.html
+│           timeline.html
+│
+├───PHPMailer-master
+│   │   COMMITMENT
+│   │   composer.json
+│   │   get_oauth_token.php
+│   │   LICENSE
+│   │   README.md
+│   │   SECURITY.md
+│   │   SMTPUTF8.md
+│   │   VERSION
+│   │
+│   ├───language
+│   │       phpmailer.lang-af.php
+│   │       phpmailer.lang-ar.php
+│   │       phpmailer.lang-as.php
+│   │       phpmailer.lang-az.php
+│   │       phpmailer.lang-ba.php
+│   │       phpmailer.lang-be.php
+│   │       phpmailer.lang-bg.php
+│   │       phpmailer.lang-bn.php
+│   │       phpmailer.lang-ca.php
+│   │       phpmailer.lang-cs.php
+│   │       phpmailer.lang-da.php
+│   │       phpmailer.lang-de.php
+│   │       phpmailer.lang-el.php
+│   │       phpmailer.lang-eo.php
+│   │       phpmailer.lang-es.php
+│   │       phpmailer.lang-et.php
+│   │       phpmailer.lang-fa.php
+│   │       phpmailer.lang-fi.php
+│   │       phpmailer.lang-fo.php
+│   │       phpmailer.lang-fr.php
+│   │       phpmailer.lang-gl.php
+│   │       phpmailer.lang-he.php
+│   │       phpmailer.lang-hi.php
+│   │       phpmailer.lang-hr.php
+│   │       phpmailer.lang-hu.php
+│   │       phpmailer.lang-hy.php
+│   │       phpmailer.lang-id.php
+│   │       phpmailer.lang-it.php
+│   │       phpmailer.lang-ja.php
+│   │       phpmailer.lang-ka.php
+│   │       phpmailer.lang-ko.php
+│   │       phpmailer.lang-ku.php
+│   │       phpmailer.lang-lt.php
+│   │       phpmailer.lang-lv.php
+│   │       phpmailer.lang-mg.php
+│   │       phpmailer.lang-mn.php
+│   │       phpmailer.lang-ms.php
+│   │       phpmailer.lang-nb.php
+│   │       phpmailer.lang-nl.php
+│   │       phpmailer.lang-pl.php
+│   │       phpmailer.lang-pt.php
+│   │       phpmailer.lang-pt_br.php
+│   │       phpmailer.lang-ro.php
+│   │       phpmailer.lang-ru.php
+│   │       phpmailer.lang-si.php
+│   │       phpmailer.lang-sk.php
+│   │       phpmailer.lang-sl.php
+│   │       phpmailer.lang-sr.php
+│   │       phpmailer.lang-sr_latn.php
+│   │       phpmailer.lang-sv.php
+│   │       phpmailer.lang-tl.php
+│   │       phpmailer.lang-tr.php
+│   │       phpmailer.lang-uk.php
+│   │       phpmailer.lang-ur.php
+│   │       phpmailer.lang-vi.php
+│   │       phpmailer.lang-zh.php
+│   │       phpmailer.lang-zh_cn.php
+│   │
+│   └───src
+│           DSNConfigurator.php
+│           Exception.php
+│           OAuth.php
+│           OAuthTokenProvider.php
+│           PHPMailer.php
+│           POP3.php
+│           SMTP.php
+│
+├───plugins
+│   ├───bootstrap-slider
+│   │       bootstrap-slider.js
+│   │       slider.css
+│   │
+│   ├───bootstrap-wysihtml5
+│   │       bootstrap3-wysihtml5.all.js
+│   │       bootstrap3-wysihtml5.all.min.js
+│   │       bootstrap3-wysihtml5.css
+│   │       bootstrap3-wysihtml5.min.css
+│   │
+│   ├───chartjs
+│   │       Chart.js
+│   │       Chart.min.js
+│   │
+│   ├───ckeditor
+│   │   │   build-config.js
+│   │   │   CHANGES.md
+│   │   │   ckeditor.js
+│   │   │   config.js
+│   │   │   contents.css
+│   │   │   LICENSE.md
+│   │   │   README.md
+│   │   │   styles.js
+│   │   │
+│   │   ├───adapters
+│   │   │       jquery.js
+│   │   │
+│   │   ├───lang
+│   │   │       af.js
+│   │   │       ar.js
+│   │   │       bg.js
+│   │   │       bn.js
+│   │   │       bs.js
+│   │   │       ca.js
+│   │   │       cs.js
+│   │   │       cy.js
+│   │   │       da.js
+│   │   │       de-ch.js
+│   │   │       de.js
+│   │   │       el.js
+│   │   │       en-au.js
+│   │   │       en-ca.js
+│   │   │       en-gb.js
+│   │   │       en.js
+│   │   │       eo.js
+│   │   │       es.js
+│   │   │       et.js
+│   │   │       eu.js
+│   │   │       fa.js
+│   │   │       fi.js
+│   │   │       fo.js
+│   │   │       fr-ca.js
+│   │   │       fr.js
+│   │   │       gl.js
+│   │   │       gu.js
+│   │   │       he.js
+│   │   │       hi.js
+│   │   │       hr.js
+│   │   │       hu.js
+│   │   │       id.js
+│   │   │       is.js
+│   │   │       it.js
+│   │   │       ja.js
+│   │   │       ka.js
+│   │   │       km.js
+│   │   │       ko.js
+│   │   │       ku.js
+│   │   │       lt.js
+│   │   │       lv.js
+│   │   │       mk.js
+│   │   │       mn.js
+│   │   │       ms.js
+│   │   │       nb.js
+│   │   │       nl.js
+│   │   │       no.js
+│   │   │       pl.js
+│   │   │       pt-br.js
+│   │   │       pt.js
+│   │   │       ro.js
+│   │   │       ru.js
+│   │   │       si.js
+│   │   │       sk.js
+│   │   │       sl.js
+│   │   │       sq.js
+│   │   │       sr-latn.js
+│   │   │       sr.js
+│   │   │       sv.js
+│   │   │       th.js
+│   │   │       tr.js
+│   │   │       tt.js
+│   │   │       ug.js
+│   │   │       uk.js
+│   │   │       vi.js
+│   │   │       zh-cn.js
+│   │   │       zh.js
+│   │   │
+│   │   ├───plugins
+│   │   │   │   icons.png
+│   │   │   │   icons_hidpi.png
+│   │   │   │
+│   │   │   ├───a11yhelp
+│   │   │   │   └───dialogs
+│   │   │   │       │   a11yhelp.js
+│   │   │   │       │
+│   │   │   │       └───lang
+│   │   │   │               af.js
+│   │   │   │               ar.js
+│   │   │   │               bg.js
+│   │   │   │               ca.js
+│   │   │   │               cs.js
+│   │   │   │               cy.js
+│   │   │   │               da.js
+│   │   │   │               de-ch.js
+│   │   │   │               de.js
+│   │   │   │               el.js
+│   │   │   │               en-gb.js
+│   │   │   │               en.js
+│   │   │   │               eo.js
+│   │   │   │               es.js
+│   │   │   │               et.js
+│   │   │   │               eu.js
+│   │   │   │               fa.js
+│   │   │   │               fi.js
+│   │   │   │               fo.js
+│   │   │   │               fr-ca.js
+│   │   │   │               fr.js
+│   │   │   │               gl.js
+│   │   │   │               gu.js
+│   │   │   │               he.js
+│   │   │   │               hi.js
+│   │   │   │               hr.js
+│   │   │   │               hu.js
+│   │   │   │               id.js
+│   │   │   │               it.js
+│   │   │   │               ja.js
+│   │   │   │               km.js
+│   │   │   │               ko.js
+│   │   │   │               ku.js
+│   │   │   │               lt.js
+│   │   │   │               lv.js
+│   │   │   │               mk.js
+│   │   │   │               mn.js
+│   │   │   │               nb.js
+│   │   │   │               nl.js
+│   │   │   │               no.js
+│   │   │   │               pl.js
+│   │   │   │               pt-br.js
+│   │   │   │               pt.js
+│   │   │   │               ro.js
+│   │   │   │               ru.js
+│   │   │   │               si.js
+│   │   │   │               sk.js
+│   │   │   │               sl.js
+│   │   │   │               sq.js
+│   │   │   │               sr-latn.js
+│   │   │   │               sr.js
+│   │   │   │               sv.js
+│   │   │   │               th.js
+│   │   │   │               tr.js
+│   │   │   │               tt.js
+│   │   │   │               ug.js
+│   │   │   │               uk.js
+│   │   │   │               vi.js
+│   │   │   │               zh-cn.js
+│   │   │   │               zh.js
+│   │   │   │               _translationstatus.txt
+│   │   │   │
+│   │   │   ├───about
+│   │   │   │   └───dialogs
+│   │   │   │       │   about.js
+│   │   │   │       │   logo_ckeditor.png
+│   │   │   │       │
+│   │   │   │       └───hidpi
+│   │   │   │               logo_ckeditor.png
+│   │   │   │
+│   │   │   ├───clipboard
+│   │   │   │   └───dialogs
+│   │   │   │           paste.js
+│   │   │   │
+│   │   │   ├───dialog
+│   │   │   │       dialogDefinition.js
+│   │   │   │
+│   │   │   ├───image
+│   │   │   │   ├───dialogs
+│   │   │   │   │       image.js
+│   │   │   │   │
+│   │   │   │   └───images
+│   │   │   │           noimage.png
+│   │   │   │
+│   │   │   ├───link
+│   │   │   │   ├───dialogs
+│   │   │   │   │       anchor.js
+│   │   │   │   │       link.js
+│   │   │   │   │
+│   │   │   │   └───images
+│   │   │   │       │   anchor.png
+│   │   │   │       │
+│   │   │   │       └───hidpi
+│   │   │   │               anchor.png
+│   │   │   │
+│   │   │   ├───magicline
+│   │   │   │   └───images
+│   │   │   │       │   icon-rtl.png
+│   │   │   │       │   icon.png
+│   │   │   │       │
+│   │   │   │       └───hidpi
+│   │   │   │               icon-rtl.png
+│   │   │   │               icon.png
+│   │   │   │
+│   │   │   ├───pastefromword
+│   │   │   │   └───filter
+│   │   │   │           default.js
+│   │   │   │
+│   │   │   ├───scayt
+│   │   │   │   │   CHANGELOG.md
+│   │   │   │   │   LICENSE.md
+│   │   │   │   │   README.md
+│   │   │   │   │
+│   │   │   │   └───dialogs
+│   │   │   │           options.js
+│   │   │   │           toolbar.css
+│   │   │   │
+│   │   │   ├───specialchar
+│   │   │   │   └───dialogs
+│   │   │   │       │   specialchar.js
+│   │   │   │       │
+│   │   │   │       └───lang
+│   │   │   │               af.js
+│   │   │   │               ar.js
+│   │   │   │               bg.js
+│   │   │   │               ca.js
+│   │   │   │               cs.js
+│   │   │   │               cy.js
+│   │   │   │               da.js
+│   │   │   │               de-ch.js
+│   │   │   │               de.js
+│   │   │   │               el.js
+│   │   │   │               en-gb.js
+│   │   │   │               en.js
+│   │   │   │               eo.js
+│   │   │   │               es.js
+│   │   │   │               et.js
+│   │   │   │               eu.js
+│   │   │   │               fa.js
+│   │   │   │               fi.js
+│   │   │   │               fr-ca.js
+│   │   │   │               fr.js
+│   │   │   │               gl.js
+│   │   │   │               he.js
+│   │   │   │               hr.js
+│   │   │   │               hu.js
+│   │   │   │               id.js
+│   │   │   │               it.js
+│   │   │   │               ja.js
+│   │   │   │               km.js
+│   │   │   │               ko.js
+│   │   │   │               ku.js
+│   │   │   │               lt.js
+│   │   │   │               lv.js
+│   │   │   │               nb.js
+│   │   │   │               nl.js
+│   │   │   │               no.js
+│   │   │   │               pl.js
+│   │   │   │               pt-br.js
+│   │   │   │               pt.js
+│   │   │   │               ru.js
+│   │   │   │               si.js
+│   │   │   │               sk.js
+│   │   │   │               sl.js
+│   │   │   │               sq.js
+│   │   │   │               sv.js
+│   │   │   │               th.js
+│   │   │   │               tr.js
+│   │   │   │               tt.js
+│   │   │   │               ug.js
+│   │   │   │               uk.js
+│   │   │   │               vi.js
+│   │   │   │               zh-cn.js
+│   │   │   │               zh.js
+│   │   │   │               _translationstatus.txt
+│   │   │   │
+│   │   │   ├───table
+│   │   │   │   └───dialogs
+│   │   │   │           table.js
+│   │   │   │
+│   │   │   ├───tabletools
+│   │   │   │   └───dialogs
+│   │   │   │           tableCell.js
+│   │   │   │
+│   │   │   └───wsc
+│   │   │       │   LICENSE.md
+│   │   │       │   README.md
+│   │   │       │
+│   │   │       └───dialogs
+│   │   │               ciframe.html
+│   │   │               tmpFrameset.html
+│   │   │               wsc.css
+│   │   │               wsc.js
+│   │   │               wsc_ie.js
+│   │   │
+│   │   ├───samples
+│   │   │   │   index.html
+│   │   │   │
+│   │   │   ├───css
+│   │   │   │       samples.css
+│   │   │   │
+│   │   │   ├───img
+│   │   │   │       github-top.png
+│   │   │   │       header-bg.png
+│   │   │   │       header-separator.png
+│   │   │   │       logo.png
+│   │   │   │       navigation-tip.png
+│   │   │   │
+│   │   │   ├───js
+│   │   │   │       sample.js
+│   │   │   │       sf.js
+│   │   │   │
+│   │   │   ├───old
+│   │   │   │   │   ajax.html
+│   │   │   │   │   api.html
+│   │   │   │   │   appendto.html
+│   │   │   │   │   datafiltering.html
+│   │   │   │   │   divreplace.html
+│   │   │   │   │   index.html
+│   │   │   │   │   inlineall.html
+│   │   │   │   │   inlinebycode.html
+│   │   │   │   │   inlinetextarea.html
+│   │   │   │   │   jquery.html
+│   │   │   │   │   readonly.html
+│   │   │   │   │   replacebyclass.html
+│   │   │   │   │   replacebycode.html
+│   │   │   │   │   sample.css
+│   │   │   │   │   sample.js
+│   │   │   │   │   sample_posteddata.php
+│   │   │   │   │   tabindex.html
+│   │   │   │   │   uicolor.html
+│   │   │   │   │   uilanguages.html
+│   │   │   │   │   xhtmlstyle.html
+│   │   │   │   │
+│   │   │   │   ├───assets
+│   │   │   │   │   │   posteddata.php
+│   │   │   │   │   │   sample.jpg
+│   │   │   │   │   │
+│   │   │   │   │   ├───inlineall
+│   │   │   │   │   │       logo.png
+│   │   │   │   │   │
+│   │   │   │   │   ├───outputxhtml
+│   │   │   │   │   │       outputxhtml.css
+│   │   │   │   │   │
+│   │   │   │   │   └───uilanguages
+│   │   │   │   │           languages.js
+│   │   │   │   │
+│   │   │   │   ├───dialog
+│   │   │   │   │   │   dialog.html
+│   │   │   │   │   │
+│   │   │   │   │   └───assets
+│   │   │   │   │           my_dialog.js
+│   │   │   │   │
+│   │   │   │   ├───enterkey
+│   │   │   │   │       enterkey.html
+│   │   │   │   │
+│   │   │   │   ├───htmlwriter
+│   │   │   │   │   │   outputforflash.html
+│   │   │   │   │   │   outputhtml.html
+│   │   │   │   │   │
+│   │   │   │   │   └───assets
+│   │   │   │   │       └───outputforflash
+│   │   │   │   │               outputforflash.fla
+│   │   │   │   │               outputforflash.swf
+│   │   │   │   │               swfobject.js
+│   │   │   │   │
+│   │   │   │   ├───magicline
+│   │   │   │   │       magicline.html
+│   │   │   │   │
+│   │   │   │   ├───toolbar
+│   │   │   │   │       toolbar.html
+│   │   │   │   │
+│   │   │   │   └───wysiwygarea
+│   │   │   │           fullpage.html
+│   │   │   │
+│   │   │   └───toolbarconfigurator
+│   │   │       │   index.html
+│   │   │       │
+│   │   │       ├───css
+│   │   │       │       fontello.css
+│   │   │       │
+│   │   │       ├───font
+│   │   │       │       config.json
+│   │   │       │       fontello.eot
+│   │   │       │       fontello.svg
+│   │   │       │       fontello.ttf
+│   │   │       │       fontello.woff
+│   │   │       │       LICENSE.txt
+│   │   │       │
+│   │   │       ├───js
+│   │   │       │       abstracttoolbarmodifier.js
+│   │   │       │       fulltoolbareditor.js
+│   │   │       │       toolbarmodifier.js
+│   │   │       │       toolbartextmodifier.js
+│   │   │       │
+│   │   │       └───lib
+│   │   │           └───codemirror
+│   │   │                   codemirror.css
+│   │   │                   codemirror.js
+│   │   │                   javascript.js
+│   │   │                   LICENSE
+│   │   │                   neo.css
+│   │   │                   show-hint.css
+│   │   │                   show-hint.js
+│   │   │
+│   │   └───skins
+│   │       └───moono
+│   │           │   dialog.css
+│   │           │   dialog_ie.css
+│   │           │   dialog_ie7.css
+│   │           │   dialog_ie8.css
+│   │           │   dialog_iequirks.css
+│   │           │   editor.css
+│   │           │   editor_gecko.css
+│   │           │   editor_ie.css
+│   │           │   editor_ie7.css
+│   │           │   editor_ie8.css
+│   │           │   editor_iequirks.css
+│   │           │   icons.png
+│   │           │   icons_hidpi.png
+│   │           │   readme.md
+│   │           │
+│   │           └───images
+│   │               │   arrow.png
+│   │               │   close.png
+│   │               │   lock-open.png
+│   │               │   lock.png
+│   │               │   refresh.png
+│   │               │   spinner.gif
+│   │               │
+│   │               └───hidpi
+│   │                       close.png
+│   │                       lock-open.png
+│   │                       lock.png
+│   │                       refresh.png
+│   │
+│   ├───colorpicker
+│   │   │   bootstrap-colorpicker.css
+│   │   │   bootstrap-colorpicker.js
+│   │   │   bootstrap-colorpicker.min.css
+│   │   │   bootstrap-colorpicker.min.js
+│   │   │
+│   │   └───img
+│   │           alpha-horizontal.png
+│   │           alpha.png
+│   │           hue-horizontal.png
+│   │           hue.png
+│   │           saturation.png
+│   │
+│   ├───datatables
+│   │   │   dataTables.bootstrap.css
+│   │   │   dataTables.bootstrap.js
+│   │   │   dataTables.bootstrap.min.js
+│   │   │   jquery.dataTables.css
+│   │   │   jquery.dataTables.js
+│   │   │   jquery.dataTables.min.css
+│   │   │   jquery.dataTables.min.js
+│   │   │   jquery.dataTables_themeroller.css
+│   │   │
+│   │   ├───extensions
+│   │   │   ├───AutoFill
+│   │   │   │   │   Readme.txt
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.autoFill.css
+│   │   │   │   │       dataTables.autoFill.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       columns.html
+│   │   │   │   │       complete-callback.html
+│   │   │   │   │       fill-both.html
+│   │   │   │   │       fill-horizontal.html
+│   │   │   │   │       index.html
+│   │   │   │   │       scrolling.html
+│   │   │   │   │       simple.html
+│   │   │   │   │       step-callback.html
+│   │   │   │   │
+│   │   │   │   ├───images
+│   │   │   │   │       filler.png
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.autoFill.js
+│   │   │   │           dataTables.autoFill.min.js
+│   │   │   │
+│   │   │   ├───ColReorder
+│   │   │   │   │   License.txt
+│   │   │   │   │   Readme.md
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.colReorder.css
+│   │   │   │   │       dataTables.colReorder.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       alt_insert.html
+│   │   │   │   │       colvis.html
+│   │   │   │   │       col_filter.html
+│   │   │   │   │       fixedcolumns.html
+│   │   │   │   │       fixedheader.html
+│   │   │   │   │       index.html
+│   │   │   │   │       jqueryui.html
+│   │   │   │   │       new_init.html
+│   │   │   │   │       predefined.html
+│   │   │   │   │       realtime.html
+│   │   │   │   │       reset.html
+│   │   │   │   │       scrolling.html
+│   │   │   │   │       server_side.html
+│   │   │   │   │       simple.html
+│   │   │   │   │       state_save.html
+│   │   │   │   │
+│   │   │   │   ├───images
+│   │   │   │   │       insert.png
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.colReorder.js
+│   │   │   │           dataTables.colReorder.min.js
+│   │   │   │
+│   │   │   ├───ColVis
+│   │   │   │   │   License.txt
+│   │   │   │   │   Readme.md
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.colVis.css
+│   │   │   │   │       dataTables.colvis.jqueryui.css
+│   │   │   │   │       dataTables.colVis.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       button_order.html
+│   │   │   │   │       exclude_columns.html
+│   │   │   │   │       group_columns.html
+│   │   │   │   │       index.html
+│   │   │   │   │       jqueryui.html
+│   │   │   │   │       mouseover.html
+│   │   │   │   │       new_init.html
+│   │   │   │   │       restore.html
+│   │   │   │   │       simple.html
+│   │   │   │   │       text.html
+│   │   │   │   │       title_callback.html
+│   │   │   │   │       two_tables.html
+│   │   │   │   │       two_tables_identical.html
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.colVis.js
+│   │   │   │           dataTables.colVis.min.js
+│   │   │   │
+│   │   │   ├───FixedColumns
+│   │   │   │   │   License.txt
+│   │   │   │   │   Readme.md
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.fixedColumns.css
+│   │   │   │   │       dataTables.fixedColumns.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       bootstrap.html
+│   │   │   │   │       colvis.html
+│   │   │   │   │       col_filter.html
+│   │   │   │   │       css_size.html
+│   │   │   │   │       index.html
+│   │   │   │   │       index_column.html
+│   │   │   │   │       left_right_columns.html
+│   │   │   │   │       right_column.html
+│   │   │   │   │       rowspan.html
+│   │   │   │   │       server-side-processing.html
+│   │   │   │   │       simple.html
+│   │   │   │   │       size_fixed.html
+│   │   │   │   │       size_fluid.html
+│   │   │   │   │       two_columns.html
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.fixedColumns.js
+│   │   │   │           dataTables.fixedColumns.min.js
+│   │   │   │
+│   │   │   ├───FixedHeader
+│   │   │   │   │   Readme.txt
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.fixedHeader.css
+│   │   │   │   │       dataTables.fixedHeader.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       header_footer.html
+│   │   │   │   │       index.html
+│   │   │   │   │       simple.html
+│   │   │   │   │       top_left_right.html
+│   │   │   │   │       two_tables.html
+│   │   │   │   │       zIndexes.html
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.fixedHeader.js
+│   │   │   │           dataTables.fixedHeader.min.js
+│   │   │   │
+│   │   │   ├───KeyTable
+│   │   │   │   │   Readme.txt
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.keyTable.css
+│   │   │   │   │       dataTables.keyTable.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │       events.html
+│   │   │   │   │       html.html
+│   │   │   │   │       index.html
+│   │   │   │   │       scrolling.html
+│   │   │   │   │       simple.html
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.keyTable.js
+│   │   │   │           dataTables.keyTable.min.js
+│   │   │   │
+│   │   │   ├───Responsive
+│   │   │   │   │   License.txt
+│   │   │   │   │   Readme.md
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.responsive.css
+│   │   │   │   │       dataTables.responsive.scss
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │   │   index.html
+│   │   │   │   │   │
+│   │   │   │   │   ├───child-rows
+│   │   │   │   │   │       column-control.html
+│   │   │   │   │   │       custom-renderer.html
+│   │   │   │   │   │       disable-child-rows.html
+│   │   │   │   │   │       index.html
+│   │   │   │   │   │       right-column.html
+│   │   │   │   │   │       whole-row-control.html
+│   │   │   │   │   │
+│   │   │   │   │   ├───display-control
+│   │   │   │   │   │       auto.html
+│   │   │   │   │   │       classes.html
+│   │   │   │   │   │       complexHeader.html
+│   │   │   │   │   │       fixedHeader.html
+│   │   │   │   │   │       index.html
+│   │   │   │   │   │       init-classes.html
+│   │   │   │   │   │
+│   │   │   │   │   ├───initialisation
+│   │   │   │   │   │       ajax.html
+│   │   │   │   │   │       className.html
+│   │   │   │   │   │       default.html
+│   │   │   │   │   │       index.html
+│   │   │   │   │   │       new.html
+│   │   │   │   │   │       option.html
+│   │   │   │   │   │
+│   │   │   │   │   └───styling
+│   │   │   │   │           bootstrap.html
+│   │   │   │   │           compact.html
+│   │   │   │   │           foundation.html
+│   │   │   │   │           index.html
+│   │   │   │   │           scrolling.html
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.responsive.js
+│   │   │   │           dataTables.responsive.min.js
+│   │   │   │
+│   │   │   ├───Scroller
+│   │   │   │   │   Readme.txt
+│   │   │   │   │
+│   │   │   │   ├───css
+│   │   │   │   │       dataTables.scroller.css
+│   │   │   │   │       dataTables.scroller.min.css
+│   │   │   │   │
+│   │   │   │   ├───examples
+│   │   │   │   │   │   api_scrolling.html
+│   │   │   │   │   │   index.html
+│   │   │   │   │   │   large_js_source.html
+│   │   │   │   │   │   server-side_processing.html
+│   │   │   │   │   │   simple.html
+│   │   │   │   │   │   state_saving.html
+│   │   │   │   │   │
+│   │   │   │   │   └───data
+│   │   │   │   │           2500.txt
+│   │   │   │   │           ssp.php
+│   │   │   │   │
+│   │   │   │   ├───images
+│   │   │   │   │       loading-background.png
+│   │   │   │   │
+│   │   │   │   └───js
+│   │   │   │           dataTables.scroller.js
+│   │   │   │           dataTables.scroller.min.js
+│   │   │   │
+│   │   │   └───TableTools
+│   │   │       │   Readme.md
+│   │   │       │
+│   │   │       ├───css
+│   │   │       │       dataTables.tableTools.css
+│   │   │       │       dataTables.tableTools.min.css
+│   │   │       │
+│   │   │       ├───examples
+│   │   │       │       ajax.html
+│   │   │       │       alter_buttons.html
+│   │   │       │       bootstrap.html
+│   │   │       │       button_text.html
+│   │   │       │       collection.html
+│   │   │       │       defaults.html
+│   │   │       │       index.html
+│   │   │       │       jqueryui.html
+│   │   │       │       multiple_tables.html
+│   │   │       │       multi_instance.html
+│   │   │       │       new_init.html
+│   │   │       │       pdf_message.html
+│   │   │       │       plug-in.html
+│   │   │       │       select_column.html
+│   │   │       │       select_multi.html
+│   │   │       │       select_os.html
+│   │   │       │       select_single.html
+│   │   │       │       simple.html
+│   │   │       │       swf_path.html
+│   │   │       │
+│   │   │       ├───images
+│   │   │       │   │   collection.png
+│   │   │       │   │   collection_hover.png
+│   │   │       │   │   copy.png
+│   │   │       │   │   copy_hover.png
+│   │   │       │   │   csv.png
+│   │   │       │   │   csv_hover.png
+│   │   │       │   │   pdf.png
+│   │   │       │   │   pdf_hover.png
+│   │   │       │   │   print.png
+│   │   │       │   │   print_hover.png
+│   │   │       │   │   xls.png
+│   │   │       │   │   xls_hover.png
+│   │   │       │   │
+│   │   │       │   └───psd
+│   │   │       │           collection.psd
+│   │   │       │           copy document.psd
+│   │   │       │           file_types.psd
+│   │   │       │           printer.psd
+│   │   │       │
+│   │   │       ├───js
+│   │   │       │       dataTables.tableTools.js
+│   │   │       │       dataTables.tableTools.min.js
+│   │   │       │
+│   │   │       └───swf
+│   │   │               copy_csv_xls.swf
+│   │   │               copy_csv_xls_pdf.swf
+│   │   │
+│   │   └───images
+│   │           sort_asc.png
+│   │           sort_asc_disabled.png
+│   │           sort_both.png
+│   │           sort_desc.png
+│   │           sort_desc_disabled.png
+│   │
+│   ├───datepicker
+│   │   │   bootstrap-datepicker.js
+│   │   │   datepicker3.css
+│   │   │
+│   │   └───locales
+│   │           bootstrap-datepicker.ar.js
+│   │           bootstrap-datepicker.az.js
+│   │           bootstrap-datepicker.bg.js
+│   │           bootstrap-datepicker.ca.js
+│   │           bootstrap-datepicker.cs.js
+│   │           bootstrap-datepicker.cy.js
+│   │           bootstrap-datepicker.da.js
+│   │           bootstrap-datepicker.de.js
+│   │           bootstrap-datepicker.el.js
+│   │           bootstrap-datepicker.es.js
+│   │           bootstrap-datepicker.et.js
+│   │           bootstrap-datepicker.fa.js
+│   │           bootstrap-datepicker.fi.js
+│   │           bootstrap-datepicker.fr.js
+│   │           bootstrap-datepicker.gl.js
+│   │           bootstrap-datepicker.he.js
+│   │           bootstrap-datepicker.hr.js
+│   │           bootstrap-datepicker.hu.js
+│   │           bootstrap-datepicker.id.js
+│   │           bootstrap-datepicker.is.js
+│   │           bootstrap-datepicker.it.js
+│   │           bootstrap-datepicker.ja.js
+│   │           bootstrap-datepicker.ka.js
+│   │           bootstrap-datepicker.kk.js
+│   │           bootstrap-datepicker.kr.js
+│   │           bootstrap-datepicker.lt.js
+│   │           bootstrap-datepicker.lv.js
+│   │           bootstrap-datepicker.mk.js
+│   │           bootstrap-datepicker.ms.js
+│   │           bootstrap-datepicker.nb.js
+│   │           bootstrap-datepicker.nl-BE.js
+│   │           bootstrap-datepicker.nl.js
+│   │           bootstrap-datepicker.no.js
+│   │           bootstrap-datepicker.pl.js
+│   │           bootstrap-datepicker.pt-BR.js
+│   │           bootstrap-datepicker.pt.js
+│   │           bootstrap-datepicker.ro.js
+│   │           bootstrap-datepicker.rs-latin.js
+│   │           bootstrap-datepicker.rs.js
+│   │           bootstrap-datepicker.ru.js
+│   │           bootstrap-datepicker.sk.js
+│   │           bootstrap-datepicker.sl.js
+│   │           bootstrap-datepicker.sq.js
+│   │           bootstrap-datepicker.sv.js
+│   │           bootstrap-datepicker.sw.js
+│   │           bootstrap-datepicker.th.js
+│   │           bootstrap-datepicker.tr.js
+│   │           bootstrap-datepicker.ua.js
+│   │           bootstrap-datepicker.vi.js
+│   │           bootstrap-datepicker.zh-CN.js
+│   │           bootstrap-datepicker.zh-TW.js
+│   │
+│   ├───daterangepicker
+│   │       daterangepicker.css
+│   │       daterangepicker.js
+│   │       moment.js
+│   │       moment.min.js
+│   │
+│   ├───fastclick
+│   │       fastclick.js
+│   │       fastclick.min.js
+│   │
+│   ├───flot
+│   │       excanvas.js
+│   │       excanvas.min.js
+│   │       jquery.colorhelpers.js
+│   │       jquery.colorhelpers.min.js
+│   │       jquery.flot.canvas.js
+│   │       jquery.flot.canvas.min.js
+│   │       jquery.flot.categories.js
+│   │       jquery.flot.categories.min.js
+│   │       jquery.flot.crosshair.js
+│   │       jquery.flot.crosshair.min.js
+│   │       jquery.flot.errorbars.js
+│   │       jquery.flot.errorbars.min.js
+│   │       jquery.flot.fillbetween.js
+│   │       jquery.flot.fillbetween.min.js
+│   │       jquery.flot.image.js
+│   │       jquery.flot.image.min.js
+│   │       jquery.flot.js
+│   │       jquery.flot.min.js
+│   │       jquery.flot.navigate.js
+│   │       jquery.flot.navigate.min.js
+│   │       jquery.flot.pie.js
+│   │       jquery.flot.pie.min.js
+│   │       jquery.flot.resize.js
+│   │       jquery.flot.resize.min.js
+│   │       jquery.flot.selection.js
+│   │       jquery.flot.selection.min.js
+│   │       jquery.flot.stack.js
+│   │       jquery.flot.stack.min.js
+│   │       jquery.flot.symbol.js
+│   │       jquery.flot.symbol.min.js
+│   │       jquery.flot.threshold.js
+│   │       jquery.flot.threshold.min.js
+│   │       jquery.flot.time.js
+│   │       jquery.flot.time.min.js
+│   │
+│   ├───fullcalendar
+│   │       fullcalendar.css
+│   │       fullcalendar.js
+│   │       fullcalendar.min.css
+│   │       fullcalendar.min.js
+│   │       fullcalendar.print.css
+│   │
+│   ├───iCheck
+│   │   │   all.css
+│   │   │   icheck.js
+│   │   │   icheck.min.js
+│   │   │
+│   │   ├───flat
+│   │   │       aero.css
+│   │   │       aero.png
+│   │   │       aero@2x.png
+│   │   │       blue.css
+│   │   │       blue.png
+│   │   │       blue@2x.png
+│   │   │       flat.css
+│   │   │       flat.png
+│   │   │       flat@2x.png
+│   │   │       green.css
+│   │   │       green.png
+│   │   │       green@2x.png
+│   │   │       grey.css
+│   │   │       grey.png
+│   │   │       grey@2x.png
+│   │   │       orange.css
+│   │   │       orange.png
+│   │   │       orange@2x.png
+│   │   │       pink.css
+│   │   │       pink.png
+│   │   │       pink@2x.png
+│   │   │       purple.css
+│   │   │       purple.png
+│   │   │       purple@2x.png
+│   │   │       red.css
+│   │   │       red.png
+│   │   │       red@2x.png
+│   │   │       yellow.css
+│   │   │       yellow.png
+│   │   │       yellow@2x.png
+│   │   │       _all.css
+│   │   │
+│   │   ├───futurico
+│   │   │       futurico.css
+│   │   │       futurico.png
+│   │   │       futurico@2x.png
+│   │   │
+│   │   ├───line
+│   │   │       aero.css
+│   │   │       blue.css
+│   │   │       green.css
+│   │   │       grey.css
+│   │   │       line.css
+│   │   │       line.png
+│   │   │       line@2x.png
+│   │   │       orange.css
+│   │   │       pink.css
+│   │   │       purple.css
+│   │   │       red.css
+│   │   │       yellow.css
+│   │   │       _all.css
+│   │   │
+│   │   ├───minimal
+│   │   │       aero.css
+│   │   │       aero.png
+│   │   │       aero@2x.png
+│   │   │       blue.css
+│   │   │       blue.png
+│   │   │       blue@2x.png
+│   │   │       green.css
+│   │   │       green.png
+│   │   │       green@2x.png
+│   │   │       grey.css
+│   │   │       grey.png
+│   │   │       grey@2x.png
+│   │   │       minimal.css
+│   │   │       minimal.png
+│   │   │       minimal@2x.png
+│   │   │       orange.css
+│   │   │       orange.png
+│   │   │       orange@2x.png
+│   │   │       pink.css
+│   │   │       pink.png
+│   │   │       pink@2x.png
+│   │   │       purple.css
+│   │   │       purple.png
+│   │   │       purple@2x.png
+│   │   │       red.css
+│   │   │       red.png
+│   │   │       red@2x.png
+│   │   │       yellow.css
+│   │   │       yellow.png
+│   │   │       yellow@2x.png
+│   │   │       _all.css
+│   │   │
+│   │   ├───polaris
+│   │   │       polaris.css
+│   │   │       polaris.png
+│   │   │       polaris@2x.png
+│   │   │
+│   │   └───square
+│   │           aero.css
+│   │           aero.png
+│   │           aero@2x.png
+│   │           blue.css
+│   │           blue.png
+│   │           blue@2x.png
+│   │           green.css
+│   │           green.png
+│   │           green@2x.png
+│   │           grey.css
+│   │           grey.png
+│   │           grey@2x.png
+│   │           orange.css
+│   │           orange.png
+│   │           orange@2x.png
+│   │           pink.css
+│   │           pink.png
+│   │           pink@2x.png
+│   │           purple.css
+│   │           purple.png
+│   │           purple@2x.png
+│   │           red.css
+│   │           red.png
+│   │           red@2x.png
+│   │           square.css
+│   │           square.png
+│   │           square@2x.png
+│   │           yellow.css
+│   │           yellow.png
+│   │           yellow@2x.png
+│   │           _all.css
+│   │
+│   ├───input-mask
+│   │   │   jquery.inputmask.date.extensions.js
+│   │   │   jquery.inputmask.extensions.js
+│   │   │   jquery.inputmask.js
+│   │   │   jquery.inputmask.numeric.extensions.js
+│   │   │   jquery.inputmask.phone.extensions.js
+│   │   │   jquery.inputmask.regex.extensions.js
+│   │   │
+│   │   └───phone-codes
+│   │           phone-be.json
+│   │           phone-codes.json
+│   │           readme.txt
+│   │
+│   ├───ionslider
+│   │   │   ion.rangeSlider.css
+│   │   │   ion.rangeSlider.min.js
+│   │   │   ion.rangeSlider.skinFlat.css
+│   │   │   ion.rangeSlider.skinNice.css
+│   │   │
+│   │   └───img
+│   │           sprite-skin-flat.png
+│   │           sprite-skin-nice.png
+│   │
+│   ├───jQuery
+│   │       jquery-2.2.3.min.js
+│   │
+│   ├───jQueryUI
+│   │       jquery-ui.js
+│   │       jquery-ui.min.js
+│   │
+│   ├───jvectormap
+│   │       jquery-jvectormap-1.2.2.css
+│   │       jquery-jvectormap-1.2.2.min.js
+│   │       jquery-jvectormap-usa-en.js
+│   │       jquery-jvectormap-world-mill-en.js
+│   │
+│   ├───knob
+│   │       jquery.knob.js
+│   │
+│   ├───morris
+│   │       morris.css
+│   │       morris.js
+│   │       morris.min.js
+│   │
+│   ├───pace
+│   │       pace.css
+│   │       pace.js
+│   │       pace.min.css
+│   │       pace.min.js
+│   │
+│   ├───select2
+│   │   │   select2.css
+│   │   │   select2.full.js
+│   │   │   select2.full.min.js
+│   │   │   select2.js
+│   │   │   select2.min.css
+│   │   │   select2.min.js
+│   │   │
+│   │   └───i18n
+│   │           ar.js
+│   │           az.js
+│   │           bg.js
+│   │           ca.js
+│   │           cs.js
+│   │           da.js
+│   │           de.js
+│   │           el.js
+│   │           en.js
+│   │           es.js
+│   │           et.js
+│   │           eu.js
+│   │           fa.js
+│   │           fi.js
+│   │           fr.js
+│   │           gl.js
+│   │           he.js
+│   │           hi.js
+│   │           hr.js
+│   │           hu.js
+│   │           id.js
+│   │           is.js
+│   │           it.js
+│   │           ja.js
+│   │           km.js
+│   │           ko.js
+│   │           lt.js
+│   │           lv.js
+│   │           mk.js
+│   │           ms.js
+│   │           nb.js
+│   │           nl.js
+│   │           pl.js
+│   │           pt-BR.js
+│   │           pt.js
+│   │           ro.js
+│   │           ru.js
+│   │           sk.js
+│   │           sr-Cyrl.js
+│   │           sr.js
+│   │           sv.js
+│   │           th.js
+│   │           tr.js
+│   │           uk.js
+│   │           vi.js
+│   │           zh-CN.js
+│   │           zh-TW.js
+│   │
+│   ├───slimScroll
+│   │       jquery.slimscroll.js
+│   │       jquery.slimscroll.min.js
+│   │
+│   ├───sparkline
+│   │       jquery.sparkline.js
+│   │       jquery.sparkline.min.js
+│   │
+│   └───timepicker
+│           bootstrap-timepicker.css
+│           bootstrap-timepicker.js
+│           bootstrap-timepicker.min.css
+│           bootstrap-timepicker.min.js
+│
+└───user
+        dashboard.php
+        exercises.php
+        index2.php
+        membership.php
+        my_attendance.php
+        my_payments.php
+        my_schedule.php
+        profile.php
+        register.php
+        style.css
+        trainers.php
+        user_auth.php
+        user_db.php
+        user_footer.php
+        user_header.php
+        user_login.php
+        user_logout.php
